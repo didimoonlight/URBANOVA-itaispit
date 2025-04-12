@@ -1,0 +1,23 @@
+[
+    {
+      "name": "DENIM CORSET",
+      "price": "80€",
+      "image": "images/best_seller1.jpg"
+    },
+    {
+      "name": "STAR JEANS",
+      "price": "90€",
+      "image": "images/best_seller2.jpg"
+    },
+    {
+      "name": "LEATHER JACKET",
+      "price": "120€",
+      "image": "images/best_seller3.jpg"
+    },
+    {
+      "name": "JUMPER TOP",
+      "price": "70€",
+      "image": "images/best_seller4.jpg"
+    }
+  ]
+  

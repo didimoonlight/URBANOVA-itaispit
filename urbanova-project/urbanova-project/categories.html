@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Urbanova Categories</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <img src="images/logo.jpg" alt="Urbanova Logo" class="logo"/>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">home</a></li>
+        <li><a href="trending.html">trending</a></li>
+        <li><a href="shop.html">shop</a></li>
+        <li><a href="categories.html">categories</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+    <div class="icons">
+      <img src="images/navbar1.jpg" alt="Cart" class="icon" />
+      <img src="images/navbar2.jpg" alt="Search" class="icon"/>
+    </div>
+  </header>
+
+  <section class="subscription-banner">
+    <h1>10% OFF FOR SUBSCRIPTION</h1>
+    <button onclick="window.location.href='contact.html'">SUBSCRIBE NOW</button>
+  </section>
+
+  <section class="categories-grid">
+    <div class="category clothing">
+      <img src="images/clothing.jpg" alt="Clothing">
+      <h2>CLOTHING</h2>
+    </div>
+    <div class="right-column">
+      <div class="category bag">
+        <img src="images/bag.jpg" alt="Bags and Accessories">
+        <h2>BAGS & ACCESSORIES</h2>
+      </div>
+      <div class="category shoes">
+        <img src="images/shoes.jpg" alt="Shoes">
+        <h2>SHOES</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="links">
+    <p id="mens-link" >MENS/</p>
+    <hr>
+    <p id="womens-link" >WOMENS/</p>
+    <hr>
+</section> 
+<div id="tooltip" class="tooltip">Coming soon...</div>
+<style>
+   .nav-links{
+        font-family: 'Montserrat' , sans-serif;
+    }
+    .subscription-banner {
+      font-family: 'Montserrat' , sans-serif;
+    }
+    .categories-grid {
+      font-family: 'Poppins Bold Italic' , sans-serif;
+      font-style: italic;
+    }
+</style>
+<script src="script.js"></script>
+</body>
+</html>

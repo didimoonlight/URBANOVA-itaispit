@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urbanova</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Urbanova Logo" class="logo">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">home</a></li>
+                <li><a href="trending.html">trending</a></li>
+                <li><a href="shop.html">shop</a></li>
+                <li><a href="categories.html">categories</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <img src="images/navbar1.jpg" alt="Cart Icon" class="icon" id="cart-icon" style="position: relative;">
+            <span id="cart-count">0</span>
+            <img src="images/navbar2.jpg" alt="Search Icon" class="icon">
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+          <img src="images/shop_bcg (1).jpeg" alt="shop background" style="width: 100%;">
+         <div class="hero-text">
+            <h1>shop</h1>
+            <button>
+                SALE
+            </button>
+         </div>
+         <hr>
+        </section>
+    
+        <section class="best-sellers">
+          <h2>This Season’s Best Sellers</h2> <hr>
+          <div id="products-container" class="products-container"></div>
+          <button id="clear-cart" class="clear-cart">Clear Cart</button>
+        </section> 
+
+      </main> 
+
+    <style>
+         .nav-links{
+        font-family: 'Montserrat' , sans-serif;
+    }
+    .best-sellers{
+        font-family:'Montserrat' , sans-serif;
+    }
+    .hero button {
+        font-family: 'Poppins Bold Italic' , sans-serif;
+    }
+    </style>
+    <script src="script.js"></script>
+</body>
+</html>
